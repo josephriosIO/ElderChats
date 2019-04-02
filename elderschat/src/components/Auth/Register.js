@@ -44,7 +44,7 @@ class Register extends Component {
       !username.length ||
       !email.length ||
       !password.length ||
-      !passwordConfirmation
+      !passwordConfirmation.length
     );
   };
 
